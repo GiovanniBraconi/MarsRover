@@ -6,7 +6,6 @@ class Program
 
     static void Main()
     {
-        //write what each command does
         Console.WriteLine("f: move forward");
         Console.WriteLine("b: move backward");
         Console.WriteLine("l: turn left");
