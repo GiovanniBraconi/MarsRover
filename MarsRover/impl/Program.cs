@@ -6,6 +6,11 @@ class Program
 
     static void Main()
     {
+        //write what each command does
+        Console.WriteLine("f: move forward");
+        Console.WriteLine("b: move backward");
+        Console.WriteLine("l: turn left");
+        Console.WriteLine("r: turn right");
         Console.WriteLine("Rover starting position: (0, 0)");
         _rover = new MarsRover(new[] {0, 0}, 'N', new PlanetGrid(1, 1, 3));
         Console.WriteLine("Enter a command sequence:");
